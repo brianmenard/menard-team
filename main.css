@@ -1,0 +1,213 @@
+body {
+  overflow-x: hidden;
+}
+
+.home_bg{
+    background-image: url('images/pexels_home.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.header_container{
+    padding-top: 100px;
+    padding-left:80px;
+}
+
+.tall{
+    height: 750px;
+    min-width: 650px;
+}
+
+.navbar-brand {
+          transform: translateX(-50%);
+          left: 50%;
+          position: absolute;
+          border-bottom: thin solid #737373;
+        } 
+        
+.navbar-center {
+          transform: translateX(-50%);
+          left: 50%;
+          top:60px;
+          position: absolute;
+        } 
+
+.body_text {
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sub_header{
+    font-size: 28px;
+    font-weight: 200;
+    color: white;
+}
+
+.grey{
+     color: #737373;   
+}
+
+.feedback_quote{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.raleway_400{
+    font-weight: 400;
+    font-family: 'Raleway', sans-serif;
+}
+
+.raleway_200{
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+}
+
+.size_image{
+    width: 100%;
+}
+
+
+.raleway{
+    font-family: 'Raleway';
+}
+
+.header {
+    font-size: 35px;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    color: white;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+
+.padded{
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.padded_top{
+    padding-top: 40px;
+}
+
+.padded_bottom{
+    padding-bottom: 40px;
+}
+
+
+.double_outline{
+    border:2px thin #f1f1f1;
+    outline-color: #f1f1f1;  
+    outline-style:double;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.details_header{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    color: #606060;
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.details_content{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0;
+    color: #606060;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.center{
+    text-align: center;
+}
+
+.feedback_row{
+    height: 300px;
+    min-width: 750px;
+    padding-top: 50px;
+    margin-top: 30px;
+    background-image: url('images/pexels_stairs_dark.jpg');
+    background-position: right 20px bottom 10px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.feedback_box{
+    height: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.white{
+    color: white;
+}
+
+.tan_bg{
+    background-color: #fcfbf9;
+}
+
+.dark_grey_bg{
+    background-color: #303030;
+}
+
+.undecorated{
+    text-decoration: none;
+    color: #737373;
+}
+
+.undecorated:hover{
+    text-decoration: underline;
+    color: #1abb9c;
+}
+
+.teal{
+    color: #1abb9c;
+}
+
+a.teal:hover{
+    color: #1abb9c;
+    text-decoration: underline;
+}
+
+.heart{
+    color: red;
+}
+    
+    
+/** FOR TESTING PURPOSES **/
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/** MEDIA QUERIES **/
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .tall {
+    height: 600px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 990px) {
+  .tall {
+    height: 500px;
+  }
+}
+
+}
