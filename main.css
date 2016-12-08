@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 .header_container{
@@ -33,7 +34,7 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-x: hidden;
     color: #737373;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
 }
 
@@ -122,7 +123,7 @@ body {
     color: #606060;
     margin-bottom: 10px;
     font-weight: 400;
-    font-size: 13px;
+    font-size: 16px;
 }
 
 .center{
@@ -193,16 +194,30 @@ a.teal:hover{
 
 /** MEDIA QUERIES **/
 
-@media (min-width: 990px) and (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
   .tall {
     height: 600px;
   }
 }
 
-@media (min-width: 500px) and (max-width: 990px) {
+@media (min-width: 500px) and (max-width: 993px) {
   .tall {
     height: 500px;
   }
-}
-
+  
+  .header_container{
+    left: 120px;
+  }
+  
+  .details_content{
+      font-size: 200%
+  }
+  
+  .details_header{
+      font-size: 200%;
+  }
+  
+  .body_text{
+      font-size: 200%;
+  }
 }
