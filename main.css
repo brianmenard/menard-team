@@ -6,7 +6,7 @@ body {
 .header_container{
     position: absolute;
     top: 100px;
-    left:80px;
+    left:13vw;
 }
 
 .tall{
@@ -194,6 +194,24 @@ a.teal:hover{
 
 /** MEDIA QUERIES **/
 
+@media (min-width: 1600px) and (max-width: 1800px) {
+  .header_container{
+    left: 13vw;
+  }
+}
+
+@media (min-width: 1400px) and (max-width: 1599px) {
+  .header_container{
+    left: 13vw;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .header_container{
+    left: 13vw;
+  }
+}
+
 @media (min-width: 993px) and (max-width: 1200px) {
   .tall {
     height: 600px;
@@ -219,6 +237,10 @@ a.teal:hover{
   
   .body_text{
       font-size: 200%;
+  }
+  
+  .feedback_row{
+      height: 450px;
   }
 }
 
