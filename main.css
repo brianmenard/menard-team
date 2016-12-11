@@ -194,13 +194,13 @@ a.teal:hover{
 
 /** MEDIA QUERIES **/
 
-@media (min-width: 1600px) and (max-width: 1800px) {
+@media (min-width: 1580px) {
   .header_container{
-    left: 13vw;
+    left: 20vw;
   }
 }
 
-@media (min-width: 1400px) and (max-width: 1599px) {
+@media (min-width: 1400px) and (max-width: 1580px) {
   .header_container{
     left: 13vw;
   }
